@@ -1,0 +1,10 @@
+#navbar-nav{
+    display: flex;
+}
+
+#navbar-style{
+   margin: auto;
+   color: rgba(146, 145, 143, 0.6);
+   font-weight: 600;
+   font-size: 30px;
+}
