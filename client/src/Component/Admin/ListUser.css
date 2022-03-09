@@ -1,0 +1,50 @@
+.table-listuser{
+  margin: auto;
+  width: 80%;
+  height: 70%;
+}
+tr{
+  box-sizing: border-box;
+  text-align: center;
+}
+.table-listuser th{
+  background: rgba(190, 190, 186, 0.6);
+  color: rgba(58, 134, 247, 0.6);
+  border-right: 1px solid rgb(253, 253, 252);
+  font-size: 1.7rem;
+}
+
+.tr-thead th:first-child{
+  border-radius: 10px 0px 0px 0px;
+  border-right: 1px solid rgb(253, 253, 252);
+}
+.tr-thead th:last-child{
+  border-radius: 0px  10px 0px 0px;
+  border: none;
+}
+.table-listuser td{
+  text-align: center;
+  border: 1px solid rgb(214, 223, 212);
+}
+.tfoot-table th{
+  background: rgba(190, 190, 186, 0.6);
+  text-align: center;
+  border: 1px solid rgb(231, 231, 219);
+  color: rgba(58, 134, 247, 0.6);
+  font-size: 1.7rem;
+  border: transparent;  
+}
+.tfoot-table th:first-child{
+  border-radius: 0px 0px 0px 10px; 
+  border-right: 1px solid rgb(253, 253, 252);
+}
+.tfoot-table th:last-child{
+  border-radius: 0px 0px 10px 0px; 
+
+}
+.btn-add{
+  font-size: 50px;
+}
+.btn-add i{
+  color: rgba(58, 134, 247, 0.6);
+}
